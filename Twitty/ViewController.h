@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "SBJson.h"
+@interface ViewController : UIViewController <SBJsonStreamParserDelegate>
+//<SBJsonStreamParserDelegate>
 
 @end

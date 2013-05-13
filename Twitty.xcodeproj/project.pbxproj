@@ -18,6 +18,12 @@
 		01B10BA2173BDD0700F979CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B10BA1173BDD0700F979CC /* Default-568h@2x.png */; };
 		01B10BA5173BDD0700F979CC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B10BA3173BDD0700F979CC /* MainStoryboard.storyboard */; };
 		01B10BA8173BDD0700F979CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B10BA7173BDD0700F979CC /* ViewController.m */; };
+		1C16248B17406976000910FF /* StatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C16248A17406976000910FF /* StatusTableViewCell.m */; };
+		1C16248E174078FC000910FF /* newStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C16248D174078FC000910FF /* newStatusViewController.m */; };
+		1C16249017407C72000910FF /* color-napaka-background-sky-blue-abstract-1136x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C16248F17407C72000910FF /* color-napaka-background-sky-blue-abstract-1136x640.jpg */; };
+		1CB66FB3173FC979006A5899 /* FollowListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB66FB2173FC979006A5899 /* FollowListViewController.m */; };
+		1CB66FB6173FCD5D006A5899 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB66FB5173FCD5D006A5899 /* MainTabBarViewController.m */; };
+		1CE2E19D173D036F002AC335 /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E19C173D036F002AC335 /* StatusViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +64,17 @@
 		01B10BC2173BF05E00F979CC /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
 		01B10BC3173BF05E00F979CC /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		01B10BC4173BF05E00F979CC /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		1C16248917406976000910FF /* StatusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusTableViewCell.h; path = ../StatusTableViewCell.h; sourceTree = "<group>"; };
+		1C16248A17406976000910FF /* StatusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusTableViewCell.m; path = ../StatusTableViewCell.m; sourceTree = "<group>"; };
+		1C16248C174078FB000910FF /* newStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newStatusViewController.h; path = ../newStatusViewController.h; sourceTree = "<group>"; };
+		1C16248D174078FC000910FF /* newStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newStatusViewController.m; path = ../newStatusViewController.m; sourceTree = "<group>"; };
+		1C16248F17407C72000910FF /* color-napaka-background-sky-blue-abstract-1136x640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "color-napaka-background-sky-blue-abstract-1136x640.jpg"; sourceTree = "<group>"; };
+		1CB66FB1173FC979006A5899 /* FollowListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowListViewController.h; sourceTree = "<group>"; };
+		1CB66FB2173FC979006A5899 /* FollowListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowListViewController.m; sourceTree = "<group>"; };
+		1CB66FB4173FCD5D006A5899 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		1CB66FB5173FCD5D006A5899 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		1CE2E19B173D036F002AC335 /* StatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusViewController.h; path = ../StatusViewController.h; sourceTree = "<group>"; };
+		1CE2E19C173D036F002AC335 /* StatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusViewController.m; path = ../StatusViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +122,21 @@
 		01B10B91173BDD0700F979CC /* Twitty */ = {
 			isa = PBXGroup;
 			children = (
+				1C16248C174078FB000910FF /* newStatusViewController.h */,
+				1C16248D174078FC000910FF /* newStatusViewController.m */,
+				1C16248917406976000910FF /* StatusTableViewCell.h */,
+				1C16248A17406976000910FF /* StatusTableViewCell.m */,
 				01B10B9A173BDD0700F979CC /* AppDelegate.h */,
 				01B10B9B173BDD0700F979CC /* AppDelegate.m */,
 				01B10BA3173BDD0700F979CC /* MainStoryboard.storyboard */,
+				1CB66FB4173FCD5D006A5899 /* MainTabBarViewController.h */,
+				1CB66FB5173FCD5D006A5899 /* MainTabBarViewController.m */,
+				1CB66FB1173FC979006A5899 /* FollowListViewController.h */,
+				1CB66FB2173FC979006A5899 /* FollowListViewController.m */,
 				01B10BA6173BDD0700F979CC /* ViewController.h */,
 				01B10BA7173BDD0700F979CC /* ViewController.m */,
+				1CE2E19B173D036F002AC335 /* StatusViewController.h */,
+				1CE2E19C173D036F002AC335 /* StatusViewController.m */,
 				01B10B92173BDD0700F979CC /* Supporting Files */,
 			);
 			path = Twitty;
@@ -118,6 +145,7 @@
 		01B10B92173BDD0700F979CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1C16248F17407C72000910FF /* color-napaka-background-sky-blue-abstract-1136x640.jpg */,
 				01B10B93173BDD0700F979CC /* Twitty-Info.plist */,
 				01B10B94173BDD0700F979CC /* InfoPlist.strings */,
 				01B10B97173BDD0700F979CC /* main.m */,
@@ -213,6 +241,7 @@
 				01B10BA0173BDD0700F979CC /* Default@2x.png in Resources */,
 				01B10BA2173BDD0700F979CC /* Default-568h@2x.png in Resources */,
 				01B10BA5173BDD0700F979CC /* MainStoryboard.storyboard in Resources */,
+				1C16249017407C72000910FF /* color-napaka-background-sky-blue-abstract-1136x640.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +255,11 @@
 				01B10B98173BDD0700F979CC /* main.m in Sources */,
 				01B10B9C173BDD0700F979CC /* AppDelegate.m in Sources */,
 				01B10BA8173BDD0700F979CC /* ViewController.m in Sources */,
+				1CE2E19D173D036F002AC335 /* StatusViewController.m in Sources */,
+				1CB66FB3173FC979006A5899 /* FollowListViewController.m in Sources */,
+				1CB66FB6173FCD5D006A5899 /* MainTabBarViewController.m in Sources */,
+				1C16248B17406976000910FF /* StatusTableViewCell.m in Sources */,
+				1C16248E174078FC000910FF /* newStatusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +342,7 @@
 		01B10BAC173BDD0700F979CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twitty/Twitty-Prefix.pch";
 				INFOPLIST_FILE = "Twitty/Twitty-Info.plist";
@@ -319,6 +354,7 @@
 		01B10BAD173BDD0700F979CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twitty/Twitty-Prefix.pch";
 				INFOPLIST_FILE = "Twitty/Twitty-Info.plist";

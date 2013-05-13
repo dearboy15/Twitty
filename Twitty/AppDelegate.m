@@ -10,15 +10,12 @@
 
 @implementation AppDelegate
 
-- (void)dealloc
-{
-    [_window release];
-    [super dealloc];
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //UINavigationController *nav =[[UINavigationController alloc] init];
+    //_window
     return YES;
 }
 							
